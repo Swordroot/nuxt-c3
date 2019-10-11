@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-c3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "lint:fix": "eslint --ext .ts,.js,.vue .  --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.2.1",
+    "c3": "^0.7.11",
+    "nuxt": "^2.10.0",
+    "vue-c3": "^1.2.11"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.3.1",
+    "@nuxtjs/eslint-config-typescript": "^0.1.3",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "eslint": "^6.5.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}
