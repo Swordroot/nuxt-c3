@@ -1,5 +1,5 @@
 <template>
   <div>
-    <vue-c3 :handler="handler" />
+    aaaaa
   </div>
 </template>
